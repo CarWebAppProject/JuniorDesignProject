@@ -6,7 +6,7 @@
 }
   
   /* Full-width inputs */
-input[type=text], input[type=password] {
+.fullLengthBox {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -52,4 +52,41 @@ button:hover {
     .cancelbtn {
       width: 100%;
     }
+}
+
+.header {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  background-color: gray;
+}
+
+.searchBar {
+  width: 40%;
+  padding: 12px 20px;
+}
+
+.menu {
+  float: right;
+  text-align: right;
+  font-size: large;
+  padding-top: 10px;
+}
+
+.feed {
+  height: 100px;
+  border: 3px solid green;
+}
+
+.viewProfilePic {
+  width: 50px;
+  height: 50px;
+}
+
+.viewCarPic {
+  float: center;
+  height: 100px;
 }
